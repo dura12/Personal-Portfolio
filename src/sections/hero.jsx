@@ -27,43 +27,43 @@ const HeroPage = () => {
   const isSmall = useMediaQuery({ query: '(max-width: 640px)' })
   const isMedium = useMediaQuery({ query: '(max-width: 768px)' }) 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
-  const controls = useControls('hackerRoom', {
-    rotationX: {
-      value: 2.5,
-      min: -10,
-      max: 10,
-    },
-    rotationY: {
-      value: 0,
-      min: -10,
-      max: 10,
-    },
-    rotationZ: {
-      value: 0,
-      min: -10,
-      max: 10,
-    },
-    positionX: {
-      value: 2.5,
-      min: -10,
-      max: 10,
-    },
-    positionY: {
-      value: 2.5,
-      min: -10,
-      max: 10,
-    },
-    positionZ: {
-      value: 2.5,
-      min: -10,
-      max: 10,
-    },
-    scale: {
-      value: 0.05,
-      min: 0,
-      max: 1,
-    },
-  })
+  // const controls = useControls('hackerRoom', {
+  //   rotationX: {
+  //     value: 2.5,
+  //     min: -10,
+  //     max: 10,
+  //   },
+  //   rotationY: {
+  //     value: 0,
+  //     min: -10,
+  //     max: 10,
+  //   },
+  //   rotationZ: {
+  //     value: 0,
+  //     min: -10,
+  //     max: 10,
+  //   },
+  //   positionX: {
+  //     value: 2.5,
+  //     min: -10,
+  //     max: 10,
+  //   },
+  //   positionY: {
+  //     value: 2.5,
+  //     min: -10,
+  //     max: 10,
+  //   },
+  //   positionZ: {
+  //     value: 2.5,
+  //     min: -10,
+  //     max: 10,
+  //   },
+  //   scale: {
+  //     value: 0.05,
+  //     min: 0,
+  //     max: 1,
+  //   },
+  // })
 
   return (
     <section className='min-h-screen w-full flex flex-col relative'>
@@ -114,9 +114,9 @@ const HeroPage = () => {
           </Canvas>
         </div>
 
-      <div className="absolute bottom-7 left-0 right-0 w-full z-10 sm:px-10 px-5;">
+      <div className="absolute bottom-7 left-0 right-0 w-full  z-10 sm:px-10 px-5;">
         <a href="#about" className="w-fit">
-          <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
+          <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full bg-gray-900 sm:min-w-96" />
         </a>
       </div>
       </div>
