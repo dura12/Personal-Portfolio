@@ -77,9 +77,9 @@ const HeroPage = () => {
               animationIterationCount: 'infinite',
               transformOrigin: '70% 70%',
               display: 'inline-block',
-           
+              
             }}
-          >
+            >
             👋
           </span>
         </p>
@@ -98,7 +98,7 @@ const HeroPage = () => {
                <HackerRoomWithLoader 
                       scale={sizes.deskScale}
                       position={sizes.deskPosition}
-                        rotation={[0.1, -Math.PI, 0]} />
+                      rotation={[0.1, -Math.PI, 0]} />
               </HeroCamera >
              <Target position={sizes.targetPosition} />
              <ReactLogo position={sizes.reactLogoPosition} />
@@ -116,12 +116,13 @@ const HeroPage = () => {
 
       <div className="absolute bottom-7 left-0 right-0 w-full  z-10 sm:px-10 px-5;">
         <a href="#about" className="w-fit">
-          <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full bg-gray-900 sm:min-w-96" />
+          <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full bg-gray-900 sm:text-3xl text-xl sm:min-w-96" />
         </a>
       </div>
       </div>
     </section>
   )
 }
+                   
 
 export default HeroPage
