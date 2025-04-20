@@ -16,10 +16,9 @@ const About = () => {
 
   return (
     <section className="sm:px-10 px-5 my-20" id="about">
-      <div className="max-w-screen-xl mx-auto">
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
-          <div className="w-full h-full  bg-zinc-900 rounded-lg sm:p-7 p-4 flex flex-col gap-5 hover:scale-[1.02] transition-transform duration-300">
+          <div className="w-full h-full  bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5 hover:scale-[1.02] transition-transform duration-300">
             <img src="assets/dd" alt="grid-1" className="w-full sm:h-[276px] h-[150px] rounded-full object-contain" />
 
             <div>
@@ -33,8 +32,8 @@ const About = () => {
         </div>
 
         <div className="col-span-1 xl:row-span-3">
-          <div className="w-full h-full  bg-zinc-900 rounded-lg sm:p-7 p-4 flex flex-col gap-5 hover:scale-[1.02] transition-transform duration-300">
-            <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
+          <div className="w-full h-full  bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5 hover:scale-[1.02] transition-transform duration-300">
+            <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[300px] h-fit object-contain" />
 
             <div>
               <p className="text-xl font-semibold mb-2 text-white font-generalsans">Tech Stack</p>
@@ -47,7 +46,7 @@ const About = () => {
         </div>
 
         <div className="col-span-1 xl:row-span-4">
-          <div className="w-full h-full  bg-zinc-900 rounded-lg sm:p-7 p-4 flex flex-col gap-5 hover:scale-[1.02] transition-transform duration-300">
+          <div className="w-full h-full  bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5 hover:scale-[1.02] transition-transform duration-300">
             <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
               <Globe
                 height={326}
@@ -74,7 +73,7 @@ const About = () => {
         </div>
 
         <div className="xl:col-span-2 xl:row-span-3">
-          <div className="w-full h-full  bg-zinc-900 rounded-lg sm:p-7 p-4 flex flex-col gap-5 hover:scale-[1.02] transition-transform duration-300">
+          <div className="w-full h-full  bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5 hover:scale-[1.02] transition-transform duration-300">
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
@@ -88,7 +87,7 @@ const About = () => {
         </div>
 
         <div className="xl:col-span-1 xl:row-span-2">
-          <div className="w-full h-full  border-black-300 bg-zinc-900 rounded-lg sm:p-7 p-4 flex flex-col gap-5 hover:scale-[1.02] transition-transform duration-300">
+          <div className="w-full h-full  border-black-300 bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5 hover:scale-[1.02] transition-transform duration-300">
             <img
               src="assets/grid4.png"
               alt="grid-4"
@@ -111,7 +110,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      </div>
+    
     </section>
   );
 };
