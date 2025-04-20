@@ -5,6 +5,7 @@ import HeroPage from './sections/hero'
 import About from './sections/about'
 import Project from './sections/project'
 import Client from './sections/client'
+import Contact from './sections/contact'
 const App = () => {
   return (
     <div className='p-0.5 text-3xl max-w-7xl mx-auto relative text-blue-300'>
@@ -13,6 +14,7 @@ const App = () => {
       <About />
       <Project />
       <Client />
+      <Contact />
     </div>
   )
 }
