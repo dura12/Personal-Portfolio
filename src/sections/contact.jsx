@@ -72,15 +72,15 @@ const Contact = () => {
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0  min-h-screen" />
 
-        <div className=" max-w-xl relative z-10 sm:px-10 px-5 py-10 bg-[#0E0E10] rounded-2xl shadow-2xl shadow-black-200">
+        <div className=" max-w-xl relative z-10 sm:px-10 px-5 py-10 ">
           <h3 className="sm:text-4xl text-3xl font-semibold text-gray-200">Let's talk</h3>
           <p className="text-lg text-[#afb0b6] mt-3">
             Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
             life, I’m here to help.
           </p>
-          <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
+          <form ref={formRef} onSubmit={handleSubmit} className="mt-5 flex flex-col space-y-7">
             <label className="space-y-3">
-              <span className=" text-lg text-[#d6d7dd]">Full Name</span>
+              <span className=" text-lg text-[#d6d7dd] mb-2 ">Full Name</span>
               <input
                 type="text"
                 name="name"
