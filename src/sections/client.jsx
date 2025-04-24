@@ -2,7 +2,7 @@ import { clientReviews } from '../constants/index.js';
 
 const Clients = () => {
   return (
-    <section className="sm:px-10 px-5 my-20">
+    <section className="sm:px-10 px-5 my-20" >
       <h3 className=" sm:text-4xl text-3xl font-semibold text-gray_gradient">Hear from My Clients</h3>
 
       <div className="grid md:grid-cols-2 grid-cols-1 gap-5 mt-12 ">
