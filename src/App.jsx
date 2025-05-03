@@ -9,6 +9,7 @@ import Contact from './sections/contact'
 import Footer from './sections/footer'
 import WorkExperience from './sections/works'
 import ParticlesBackground from '../src/component/particlebackground'
+import TechStack from './sections/skills'
 const App = () => {
   return (
     <div className='p-0.5 text-3xl max-w-7xl mx-auto relative text-white' >
@@ -18,7 +19,8 @@ const App = () => {
       <HeroPage />
       <About />
       <Project />
-      <Client />
+      {/* <Client /> */}
+      <TechStack />
       <WorkExperience />
       <Contact />
       <Footer/>
