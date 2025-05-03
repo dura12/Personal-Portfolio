@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react'
-import { Canvas, extend } from '@react-three/fiber'
+import { Canvas } from '@react-three/fiber'
 import { PerspectiveCamera } from '@react-three/drei'
 import { useMediaQuery } from 'react-responsive'
 import { TypeAnimation } from 'react-type-animation'

@@ -24,9 +24,7 @@ const About = () => {
             <div>
               <p className="text-xl font-semibold mb-2 text-white font-generalsans">Hi, I’m Dureti</p>
               <p className="text-[#afb0b6] text-base font-generalsans">
-                With 3 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
-              </p>
+              Motivated web developer and A2SV graduate with a strong foundation in data structures and algorithms. Hands-on experience in web development, product management, and solving real-world challenges. Recognized for competitive programming achievements and consistently performing at a high academic level.  </p>
             </div>
           </div>
         </div>
@@ -38,8 +36,8 @@ const About = () => {
             <div>
               <p className="text-xl font-semibold mb-2 text-white font-generalsans">Tech Stack</p>
               <p className="text-[#afb0b6] text-base font-generalsans">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+              I specialize in a wide range of languages, frameworks, and tools, including JavaScript, TypeScript, React, Node.js, MongoDB, Express, Flask, Tailwind CSS, Git, and Docker, enabling me to build robust and scalable applications.
+
               </p>
             </div>
           </div>
@@ -65,7 +63,7 @@ const About = () => {
                 I’m very flexible with time zone communications & locations
               </p>
               <p className="text-[#afb0b6] text-base font-generalsans">
-                I&apos;m based in Rjieka, Croatia and open to remote work worldwide.
+              I&apos;m Open to remote and onsite work worldwide.
               </p>
               <Button name="Contact Me" isBeam w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7  p-4 flex flex-col gap-5 className="w-full  sm:text-3xl text-xl mt-10" />
             </div>

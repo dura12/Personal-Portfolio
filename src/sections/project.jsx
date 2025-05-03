@@ -59,7 +59,7 @@ const Project = () => {
           <div className='flex items-center justify-between flex-wrap gap-5'>
             <div className='flex items-center gap-3 flex-wrap'>
               {project.tags.map((tag, index) => (
-                <img key={index} src={tag.path} alt={tag.name} />
+                <img key={index} src={tag.path} alt={tag.name} className='w-10 h-8' />
               ))}
             </div>
 
@@ -69,10 +69,21 @@ const Project = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <p className='lg:text-2xl bg-black sm:text-2xl text-xl'>
+              <p className=' bg-black text-sm'>
                 Check Live Site
               </p>
-              <img src='/assets/arrow-up.png' alt='arrow' className='w-3 h-3' />
+              <img src='/assets/arrow-up.png' alt='arrow' className='w-3 h-4' />
+            </a>
+            <a
+              className='flex items-center gap-2 cursor-pointer text-white'
+              href={project.github_repo}
+              target='_blank'
+              rel='noreferrer'
+            >
+              <p className=' bg-black text-sm'>
+                Check Github Repo
+              </p>
+              <img src='/assets/arrow-up.png' alt='arrow' className='w-3 h-4' />
             </a>
           </div>
 
@@ -98,7 +109,7 @@ const Project = () => {
   <directionalLight position={[10, 10, 0]} />
   <Center>
     <Suspense fallback={<CanvasLoader />}>
-      <group scale={2.4} position={[-0.2, -4.5, 0.8]} rotation={[0, -0.3, 0]}>
+      <group scale={2.4} position={[-0.3, -4.3, 1.5]} rotation={[0, -0.25, 0]}>
         <DemoComputer texture={project.texture} />
       </group>
     </Suspense>
