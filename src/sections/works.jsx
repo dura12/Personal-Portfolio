@@ -18,8 +18,8 @@ const WorkExperience = () => {
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 mt-12">
           {/* Left Panel (Canvas or Placeholder) */}
           <div className="col-span-1 rounded-lg bg-[#0E0E10]  border-gray-700 min-h-[300px]">
-            {/* Uncomment when ready to render the 3D Canvas */}
-            {/* 
+           
+             
             <Canvas>
               <ambientLight intensity={1} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
@@ -29,7 +29,7 @@ const WorkExperience = () => {
                 <Developer position-y={-3} scale={3} animationName={animationName} />
               </Suspense>
             </Canvas> 
-            */}
+           
           </div>
 
           {/* Right Panel (Timeline) */}

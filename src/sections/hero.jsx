@@ -22,8 +22,8 @@ const HeroPage = () => {
   const sizes = calculateSizes(isSmall, isMobile, isTablet)
 
   return (
-    <section className='min-h-screen w-full flex flex-col relative text-white' id='home'>
-      <div className='w-full mx-auto flex flex-col sm:mt-36 mt-20 gap-3 sm:px-10 px-5 items-center text-center'>
+    <section className='min-h-screen w-full flex flex-col relative text-white' id='hero'>
+      <div className='w-full mx-auto flex flex-col sm:mt-36 mt-20 gap-3 sm:px-10 px-5 items-center text-cente'>
         <p className='sm:text-3xl text-2xl font-medium text-white'>
           Hi, I am Dureti{' '}
           <span

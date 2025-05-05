@@ -24,10 +24,10 @@ const TechStack = () => {
   }, []);
 
   return (
-    <section className="px-5 md:px-10 mt-20 md:mt-40">
+    <section className="px-5 md:px-10 mt-20 md:mt-30">
       <TitleHeader title="Tech Stack" sub="Technologies I use" />
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 md:gap-8 mt-16">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 md:gap-8 ">
         {techStackIcons.map((icon, index) => (
           <div
             key={index}

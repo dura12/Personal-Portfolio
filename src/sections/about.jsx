@@ -15,7 +15,10 @@ const About = () => {
   };
 
   return (
-    <section className="sm:px-10 px-5 my-20" id="about">
+    <section className="sm:px-10 px-5 my-20"  id="about">
+ <p className='sm:text-4xl text-3xl font-semibold text-gray_gradient mb-5'>
+      Just A Little About Me
+      </p>
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="w-full h-full  bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5 hover:scale-[1.02] transition-transform duration-300">
@@ -93,9 +96,9 @@ const About = () => {
             />
 
             <div className="space-y-2">
-              <p className="text-[#afb0b6] text-base sm:text-3xl  font-generalsans text-center">Contact me</p>
+              <p className=" text-base sm:text-3xl  font-generalsans text-center">Contact me</p>
               <div
-                className="cursor-pointer flex justify-center items-center gap-2 w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex-col hover:scale-[1.02] transition-transform duration-300"
+                className="cursor-pointer flex justify-center items-center gap-2 w-full h-full border border-black-300 rounded-lg sm:p-7 p-4 flex-col hover:scale-[1.02] transition-transform duration-300"
                 onClick={handleCopy}
               >
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />

@@ -10,19 +10,21 @@ import Footer from './sections/footer'
 import WorkExperience from './sections/works'
 import ParticlesBackground from '../src/component/particlebackground'
 import TechStack from './sections/skills'
+import Contactt from './sections/contactt'
+import Hero from './sections/heroo'
+import Experience from './sections/experience'
 const App = () => {
   return (
     <div className='p-0.5 text-3xl max-w-7xl mx-auto relative text-white' >
       <ParticlesBackground />
 
       <Navbar />
-      <HeroPage />
+      <Hero />
       <About />
       <Project />
-      {/* <Client /> */}
       <TechStack />
-      <WorkExperience />
-      <Contact />
+      <Experience />
+      <Contactt />
       <Footer/>
 
     </div>

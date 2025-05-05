@@ -333,3 +333,48 @@ export const navLinks = [
     },
   ];
   
+  export const counterItems = [
+    { value: 15, suffix: "+", label: "Years of Experience" },
+    { value: 200, suffix: "+", label: "Satisfied Clients" },
+    { value: 108, suffix: "+", label: "Completed Projects" },
+    { value: 90, suffix: "%", label: "Client Retention Rate" },
+  ];
+
+  export const words = [
+    { text: "Ideas", imgPath: "/images/ideas.svg" },
+    { text: "Concepts", imgPath: "/images/concepts.svg" },
+    { text: "Designs", imgPath: "/images/designs.svg" },
+    { text: "Code", imgPath: "/images/code.svg" },
+    { text: "Ideas", imgPath: "/images/ideas.svg" },
+    { text: "Concepts", imgPath: "/images/concepts.svg" },
+    { text: "Designs", imgPath: "/images/designs.svg" },
+    { text: "Code", imgPath: "/images/code.svg" },
+  ];
+  
+  export const expCards = [
+    {
+      review: "Dureti is a highly motivated and skilled web developer with a solid foundation in both front-end and back-end development. Her leadership in delivering projects ahead of schedule has made a significant impact.",
+      imgPath: "/eskalate.svg", // Update with the actual image path
+      logoPath: "/eskalate.svg", // Update with the actual logo path
+      title: "Web Developer at Eskalate",
+      date: "June 2024 - August 2024",
+      responsibilities: [
+        "Led a team of seven developers in delivering the Banking Dashboard project, completing it 15 days ahead of schedule.",
+        "Utilized Next.js, RTK Query, and Tailwind CSS to ensure optimal performance and smooth UI.",
+        "Achieved a 60% reduction in project delivery time by implementing Agile methodologies, resulting in a fully tested and hosted project ahead of the deadline."
+      ],
+    },
+    {
+      review: "As the Community Education Coordinator at A2SV, Dureti successfully designed and delivered impactful training programs, helping students improve their technical and soft skills.",
+      imgPath: "/a2sv.jpeg", // Update with the actual image path
+      logoPath: "/a2sv.jpeg", // Update with the actual logo path
+      title: "Community Education Coordinator at A2SV",
+      date: "2024 - 2025",
+      responsibilities: [
+        "Led A2SV's Education Squad, responsible for designing and delivering technical and soft skills training programs for top students in Africa.",
+        "Collaborated with mentors and industry experts to create curricula that addressed real-world challenges faced by students.",
+        "Ensured the successful completion of various training modules, preparing students for top tech internships and job opportunities."
+      ],
+    },
+  ];
+  
