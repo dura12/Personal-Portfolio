@@ -4,11 +4,14 @@ const ButtonH = ({ text, className = "", id }) => {
       onClick={(e) => {
         e.preventDefault();
 
-        const target = document.getElementById("counter");
+        // Use the dynamic id to target an element like <div id="project-123" />
+        const target = document.getElementById(id);
 
-        if (target && id) {
+        if (target) {
           const offset = window.innerHeight * 0.15;
-          const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+          const top =
+            target.getBoundingClientRect().top + window.pageYOffset - offset;
+
           window.scrollTo({ top, behavior: "smooth" });
         }
       }}

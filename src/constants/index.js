@@ -104,46 +104,50 @@ export const navLinks = [
           path : 'assets/gemine.png'
         }
 
+      ]
+    },
+    {
+      title: 'VibeTalk - Real-time Messaging with Typing Indicators & Reactions',
+      desc: '🌐 Real-time Messaging with Typing Indicators & Reactions\n📹 1-on-1 and Group Video Calls with Screen Sharing & Recording\n🔐 JWT Authentication & Protected Routes\n🌍 Language Exchange Platform with 32 Unique UI Themes\n⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query\n🧠 Global State Management with Zustand\n🚨 Error Handling (Frontend & Backend)\n🚀 Free Deployment\n🎯 Built with Scalable Technologies like Stream',
+subdesc: '',
+     href: 'https://github.com/dura12/VibeTalk',
+      texture: '/textures/project/chat2.mp4',
+      logo: 'chat.png',
+      github_repo:'https://github.com/dura12/VibeTalk',
+      logoStyle: {
+        backgroundColor: '#13202F',
+        border: '0.2px solid #17293E',
+        boxShadow: '0px 0px 60px 0px #2F6DB54D',
+      },
+      spotlight: '/assets/spotlight2.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+         {
+          id: 4,
+          name: 'mongodb',
+          path: '/mongo.svg',
+        },
+         {
+          id: 5,
+          name: 'query',
+          path: '/stack.png',
+        }
       ],
-    },]
-  //   {
-  //     title: 'LiveDoc - Real-Time Google Docs Clone',
-  //     desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-  //     subdesc:
-  //       'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-  //     href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-  //     texture: '/textures/project/project2.mp4',
-  //     logo: '/assets/project-logo2.png',
-  //     github_repo:'https://github.com/dura12/ai-voice-interview-platform',
-  //     logoStyle: {
-  //       backgroundColor: '#13202F',
-  //       border: '0.2px solid #17293E',
-  //       boxShadow: '0px 0px 60px 0px #2F6DB54D',
-  //     },
-  //     spotlight: '/assets/spotlight2.png',
-  //     tags: [
-  //       {
-  //         id: 1,
-  //         name: 'React.js',
-  //         path: '/assets/react.svg',
-  //       },
-  //       {
-  //         id: 2,
-  //         name: 'TailwindCSS',
-  //         path: 'assets/tailwindcss.png',
-  //       },
-  //       {
-  //         id: 3,
-  //         name: 'TypeScript',
-  //         path: '/assets/typescript.png',
-  //       },
-  //       {
-  //         id: 4,
-  //         name: 'Framer Motion',
-  //         path: '/assets/framer.png',
-  //       },
-  //     ],
-  //   },
+    }]
   //   {
   //     title: 'CarePulse - Health Management System',
   //     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',

@@ -70,11 +70,11 @@ const Project = () => {
               rel='noreferrer'
             >
               <p className=' bg-black text-sm'>
-                Check Live Site
+                Check Github Repo
               </p>
               <img src='/assets/arrow-up.png' alt='arrow' className='w-3 h-4' />
             </a>
-            <a
+            {/* <a
               className='flex items-center gap-2 cursor-pointer text-white'
               href={project.github_repo}
               target='_blank'
@@ -84,7 +84,7 @@ const Project = () => {
                 Check Github Repo
               </p>
               <img src='/assets/arrow-up.png' alt='arrow' className='w-3 h-4' />
-            </a>
+            </a> */}
           </div>
 
           <div className='flex items-center justify-between flex-wrap gap-5 mt-7'>

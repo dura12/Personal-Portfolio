@@ -5,7 +5,7 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import { ReactThreeFiber } from '@react-three/fiber'
 
 export default [
-  { ignores: ['dist', 'node_modules'] },
+  { ignores: ['dist'] },
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
@@ -20,16 +20,18 @@ export default [
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
-      '@react-three': ReactThreeFiber,
+      '@react-three':ReactThreeFiber
     },
     rules: {
       ...js.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
-      'no-unused-vars': 'off',
-      'react-refresh/only-export-components': 'off',
-      // Add these if you have Tailwind errors
-      'tailwindcss/no-custom-classname': 'off',
-      'tailwindcss/classnames-order': 'off',
+      "no-unused-vars": "off", // Disable the no-unused-vars rule
+        "react/prop-types": "warn", // Set prop-types errors to warnings
+      // 'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      'react-refresh/only-export-components': [
+        'warn',
+        { allowConstantExport: true },
+      ],
     },
   },
-]
+] 
